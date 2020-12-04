@@ -6,8 +6,6 @@ metadata:
   annotations:
     seccomp.security.alpha.kubernetes.io/pod: runtime/default
 spec:
-  runAsUser: 1000
-  fsGroup: 1000
   containers:
   - image: ubuntu
     command:
