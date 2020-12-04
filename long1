@@ -16,7 +16,7 @@ spec:
     imagePullPolicy: IfNotPresent
     name: ubuntu
     securitycontext:
-      privileged: true
+      privileged: false
     restartPolicy: Always
 """) {
 
